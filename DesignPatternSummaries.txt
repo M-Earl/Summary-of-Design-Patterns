@@ -1,0 +1,32 @@
+------> https://refactoring.guru/design-patterns
+-----------------------------------------------------------------------------------------------------
+--- Factory
+------> Allows the creation of objects with common functionality (each object defines its own creation). Uses an interface for the objects
+--- Abstract Factory
+------> Allows the creation of factories with common functionality. There exists multiple factories based off one interface factory. Then, another interface is used to interact with the objects
+--- Builder
+------> Rather than have many parameters in a constructor, add this data via methods defined by a builder. In addition, add a director to ensure that the builder works in the correct order
+--- Prototype
+------> Cloning an object requires an object of the same class. However, one might not know the class or want to be dependent on the class. Each class defines the clone but uses an interface to bring the functionality out
+--- Singleton
+------> Similar to a global variable. Make the default constructor private and use static methods. Useful for an object like a logger where you want only one in your application. Watch for multi-threaded processes here
+--- Adapter
+------> Also known as a wrapper. This pattern allows the use of a non-changeable class (think library) or using the same wrapper across multiple classes
+--- Bridge
+------> Used to suck out class functionality into independent classes. Instead of one class having a large hierarchy, multiple classes can possess smaller hierarchies and link together
+--- Composite
+------> Handles tree structures that have varying classes. Defines a common interface that all of the classes respect in their own unique way (with leaves doing most of the work). This eases tree traversal
+--- Decorator
+------> Wraps a base class to add new functionality without direct inheritance for the original object. Base component ---> Variation component interface --> Concrete variation component
+--- Facade
+------> Adds a lighter interface to a more complex system (think: immutable library). Less complexity, less functionality
+--- Flyweight
+------> Seperate the intrinsic (immutable, shared) and extrinsic (mutable, unique) parts of an object. Makes two classes from one, but saves RAM
+--- Proxy
+------> A proxy class handles traffic routed to another class (same interface). Can be used for lazy initialization, caching, access control, logging requests, and more
+--- Chain of Responsibility
+------> Define several concrete handlers that inherit from a standard handler class. Requests are processed through the chain with each handler making decisions
+--- Command
+------> Converts requests into concrete command objects that inherit from an abstract command class. The fields of these objects contain the necessary data to be handled by the receiver 
+--- Iterator
+------> Implements concrete iterator strategies that inherit from an abstract iterator class. These concrete classes define how to traverse a data structure
