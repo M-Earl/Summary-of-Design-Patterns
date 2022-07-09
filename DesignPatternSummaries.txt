@@ -1,5 +1,7 @@
-------> https://refactoring.guru/design-patterns
 -----------------------------------------------------------------------------------------------------
+
+------> https://refactoring.guru/design-patterns
+
 --- Factory
 ------> Allows the creation of objects with common functionality (each object defines its own creation). Uses an interface for the objects
 --- Abstract Factory
@@ -30,3 +32,7 @@
 ------> Converts requests into concrete command objects that inherit from an abstract command class. The fields of these objects contain the necessary data to be handled by the receiver 
 --- Iterator
 ------> Implements concrete iterator strategies that inherit from an abstract iterator class. These concrete classes define how to traverse a data structure
+--- Mediator
+------> Rather than have objects talk and depend on one another, mediator facilitates communication between the group. This makes the classes less coupled and a different mediator can step in for different functions
+--- Memento
+------> Divide snapshot saving into originators (the object to take the snapshot of) and caretakers (the metadata of the snapshot). The originator has access to all the data and the caretaker can coordinate
