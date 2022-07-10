@@ -36,3 +36,15 @@
 ------> Rather than have objects talk and depend on one another, mediator facilitates communication between the group. This makes the classes less coupled and a different mediator can step in for different functions
 --- Memento
 ------> Divide snapshot saving into originators (the object to take the snapshot of) and caretakers (the metadata of the snapshot). The originator has access to all the data and the caretaker can coordinate
+--- Observer
+------> Seperate publishers and subscribers. Let the subscribers dynamically opt-in and opt-out to published messages that they need
+--- State
+------> Implements finite-state machines. Rather than have large conditionals that depend on class data, create additional classes that describe those states and their relationships
+--- Strategy
+------> Uses multiple approaches (commonly algorithms) to handle the same problem. The decision of which approach to use and the individual approaches are now independent
+--- Template Method
+------> Defines a standard series of steps. These steps can be overwritten (and some must be) by concrete implementations. These implementations use the template to reduce duplicate code
+--- Visitor
+------>
+--- Interpreter
+------>
