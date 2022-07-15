@@ -45,6 +45,6 @@
 --- Template Method
 ------> Defines a standard series of steps. These steps can be overwritten (and some must be) by concrete implementations. These implementations use the template to reduce duplicate code
 --- Visitor
------->
+------> Create an accept method that points to a visitor method within all classes that need a desired functionality. Define that method in a visitor class to abstract out that function from the class
 --- Interpreter
------->
+------> Define a "little language" for common functions. This pattern is rarely used as it requires that little language to have an Abstract Syntax Tree in order to parse it
